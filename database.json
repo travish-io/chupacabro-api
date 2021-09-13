@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Wade",
+      "email": "wade@wade.com",
+      "password": "wade"
+    },
+    {
+      "id": 2,
+      "name": "Alicia",
+      "email": "alicia@alicia.com",
+      "password": "alicia"
+    },
+    {
+      "id": 3,
+      "name": "Billy Bob",
+      "email": "billy@bob.com",
+      "password": "billybob"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Chupacabra Roadkill",
+      "imageUrl": "https://i.natgeofe.com/n/7dc8c935-d7be-4af4-a9a6-c2970202428d/27973_16x9.jpg?w=1200",
+      "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut. Et vel nihil ad dolor. Neque et est alias rerum. Nihil ab quas cupiditate ducimus quia tempore asperiores in in. Qui et quia sed eum possimus sit.",
+      "location": 0,
+      "timestamp": 0
+    }
+  ],
+  "postLikes": [
+    {
+      "id": 1,
+      "userId": 2,
+      "postId": 1
+    }
+  ],
+  "Comments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "postId": 1,
+      "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut. Et vel nihil ad dolor."
+    }
+  ],
+  "commentLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "commentId": 1
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "commentId": 1
+    }
+  ]
+}
