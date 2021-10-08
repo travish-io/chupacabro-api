@@ -4,19 +4,43 @@
       "id": 1,
       "name": "Wade",
       "email": "wade@wade.com",
-      "password": "wade"
+      "password": "wade",
+      "profileImg": "https://images.squarespace-cdn.com/content/v1/5e3d95707fd85a4de19e41c3/1588271998584-JHFBFBDF7DBFZYYIJP8C/dp_abducted.jpg?format=1000w"
     },
     {
       "id": 2,
-      "name": "Alicia",
+      "name": "Llamalicia",
       "email": "alicia@alicia.com",
-      "password": "alicia"
+      "password": "alicia",
+      "profileImg": "https://ih1.redbubble.net/image.833044193.9536/flat,750x,075,f-pad,750x1000,f8f8f8.u4.jpg"
     },
     {
       "id": 3,
-      "name": "Billy Bob",
+      "name": "Dale_Gribble420",
+      "email": "dale@gribble.com",
+      "password": "dale",
+      "profileImg": "https://www.pngkey.com/png/detail/79-793835_my-edit-king-of-the-hill-png-transparent.png"
+    },
+    {
+      "name": "Travis Hall",
+      "email": "t@hall.com",
+      "password": "t",
+      "id": 4,
+      "profileImg": "https://m.media-amazon.com/images/I/71J6UxizXyL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "billybob",
       "email": "billy@bob.com",
-      "password": "billybob"
+      "password": "bb",
+      "id": 5,
+      "profileImg": "https://media.gamestop.com/i/gamestop/11111419/Aliens-Xenomorph-Warrior-Statue-Only-at-GameStop"
+    },
+    {
+      "name": "scott",
+      "email": "scott@silver.com",
+      "password": "scott",
+      "id": 6,
+      "profileImg": "https://emoji.slack-edge.com/T03F2SDTJ/kawaii-scott/5660f10f2acc559a.png"
     }
   ],
   "posts": [
@@ -26,8 +50,76 @@
       "title": "Chupacabra Roadkill",
       "imageUrl": "https://i.natgeofe.com/n/7dc8c935-d7be-4af4-a9a6-c2970202428d/27973_16x9.jpg?w=1200",
       "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut. Et vel nihil ad dolor. Neque et est alias rerum. Nihil ab quas cupiditate ducimus quia tempore asperiores in in. Qui et quia sed eum possimus sit.",
-      "location": 0,
-      "timestamp": 0
+      "location": "",
+      "date": 16318057225,
+      "legitness": 60,
+      "category": "chupacabras"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "title": "Bigfoot sighting",
+      "imageUrl": "https://www.charlotteobserver.com/latest-news/26r054/picture235678892/alternates/FREE_1140/bigfootimage.jpg",
+      "text": "Look at this bigfoot I spotted on my trail cam",
+      "location": "",
+      "date": 163180572251,
+      "legitness": 90,
+      "category": "bigfoot"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "So, why are you here? ",
+      "imageUrl": "https://ichef.bbci.co.uk/news/976/cpsprodpb/50F2/production/_108622702_surgeonsphoto.jpg",
+      "text": "Two eyes. Two ears. A chin. A mouth. Ten fingers. Two nipples. A butt, two kneecaps, a penis. I've just described to you the Loch Ness monster. And the reward for it's capture? All the riches in Scotland...",
+      "location": "",
+      "date": 163180572251,
+      "legitness": 0,
+      "category": "nessy"
+    },
+    {
+      "userId": 6,
+      "title": "😳😳😳😳😳",
+      "imageUrl": "https://media.giphy.com/media/McUMy6vm8fq2k/giphy.gif?cid=ecf05e47d79kg5fdexd7aacqfq4lg2cqo3hmomr23673igg2&rid=giphy.gif&ct=g",
+      "text": "Bigfoot what is you doin??",
+      "date": 1632326013765,
+      "location": "",
+      "id": 5,
+      "legitness": 0,
+      "category": "bigfoot"
+    },
+    {
+      "userId": 1,
+      "title": "Chupacabra sighting",
+      "imageUrl": "https://www.cjonline.com/storyimage/KS/20160813/SPORTS/308139834/AR/0/AR-308139834.jpg",
+      "text": "Caught one of you Chupacabros crossing the road!",
+      "date": 1633000000000,
+      "location": "",
+      "id": 6,
+      "legitness": 85,
+      "category": "chupacabros"
+    },
+    {
+      "userId": 3,
+      "title": "Pentagon just Released UFO report...",
+      "imageUrl": "https://cdn.kpbs.org/dims4/default/e27a52f/2147483647/strip/true/crop/1426x878+68+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fassets%2Fimg%2F2021%2F06%2F04%2Fap21154653162696_wide-702cdd60ca865169cd9de0796c9c44331ae7062f.jpg",
+      "text": "False 🚩??",
+      "date": 1612225013760,
+      "location": "",
+      "id": 3,
+      "legitness": 0,
+      "category": "ufos"
+    },
+    {
+      "userId": 2,
+      "title": "What if I told you llamas are aliens? 🦙 🦙 🦙 ",
+      "imageUrl": "https://media.giphy.com/media/9ohlKnRDAmotG/giphy.gif",
+      "text": "",
+      "date": 1633272545121,
+      "legitness": 100,
+      "location": "",
+      "id": 7,
+      "category": "chupacabros"
     }
   ],
   "postLikes": [
@@ -35,26 +127,794 @@
       "id": 1,
       "userId": 2,
       "postId": 1
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "postId": 2,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "postId": 7,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "postId": 5,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "postId": 6,
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 21
+    },
+    {
+      "userId": 4,
+      "postId": 7,
+      "id": 22
+    },
+    {
+      "userId": 4,
+      "postId": 6,
+      "id": 23
+    },
+    {
+      "userId": 4,
+      "postId": 5,
+      "id": 24
+    },
+    {
+      "userId": 4,
+      "postId": 3,
+      "id": 25
+    },
+    {
+      "userId": 4,
+      "postId": 2,
+      "id": 26
+    },
+    {
+      "userId": 6,
+      "postId": 7,
+      "id": 28
+    },
+    {
+      "userId": 6,
+      "postId": 6,
+      "id": 29
+    },
+    {
+      "userId": 6,
+      "postId": 5,
+      "id": 30
+    },
+    {
+      "userId": 6,
+      "postId": 3,
+      "id": 31
+    },
+    {
+      "userId": 6,
+      "postId": 2,
+      "id": 32
+    },
+    {
+      "userId": 6,
+      "postId": 4,
+      "id": 33
+    },
+    {
+      "userId": 6,
+      "postId": 1,
+      "id": 34
+    },
+    {
+      "userId": 3,
+      "postId": 4,
+      "id": 36
+    },
+    {
+      "userId": 3,
+      "postId": 6,
+      "id": 37
+    },
+    {
+      "userId": 3,
+      "postId": 3,
+      "id": 38
+    },
+    {
+      "userId": 3,
+      "postId": 7,
+      "id": 39
     }
   ],
-  "Comments": [
+  "comments": [
     {
       "id": 1,
       "userId": 2,
       "postId": 1,
       "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut. Et vel nihil ad dolor."
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 2,
+      "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut."
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "postId": 2,
+      "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut. Et vel nihil ad dolor."
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "postId": 1,
+      "text": "Molestiae quam harum nesciunt id quia ab fugiat earum aut."
+    },
+    {
+      "userId": 6,
+      "postId": 1,
+      "text": "hey thats pretty neat",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "postId": 7,
+      "text": "😜😜😜",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "text": "🙈🙈🙈",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "text": "🤣🤣🤣",
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "postId": 3,
+      "text": "🤔🤔🤔",
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "postId": 7,
+      "text": "🤯🤯🤯",
+      "id": 12
     }
   ],
   "commentLikes": [
     {
-      "id": 1,
-      "userId": 1,
-      "commentId": 1
+      "userId": 2,
+      "commentId": 1,
+      "id": 2
     },
     {
-      "id": 2,
+      "userId": 5,
+      "commentId": 9,
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "commentId": 10,
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "commentId": 8,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "commentId": 2,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "commentId": 3,
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "commentId": 4,
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "commentId": 5,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "commentId": 1,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "commentId": 2,
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "commentId": 3,
+      "id": 19
+    },
+    {
+      "userId": 4,
+      "commentId": 9,
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "commentId": 8,
+      "id": 21
+    },
+    {
+      "userId": 6,
+      "commentId": 8,
+      "id": 22
+    },
+    {
+      "userId": 6,
+      "commentId": 9,
+      "id": 23
+    },
+    {
+      "userId": 6,
+      "commentId": 10,
+      "id": 24
+    },
+    {
+      "userId": 6,
+      "commentId": 3,
+      "id": 25
+    },
+    {
+      "userId": 6,
+      "commentId": 2,
+      "id": 26
+    },
+    {
+      "userId": 6,
+      "commentId": 1,
+      "id": 27
+    },
+    {
+      "userId": 6,
+      "commentId": 4,
+      "id": 28
+    },
+    {
+      "userId": 6,
+      "commentId": 5,
+      "id": 29
+    },
+    {
+      "userId": 6,
+      "commentId": 11,
+      "id": 30
+    },
+    {
       "userId": 3,
-      "commentId": 1
+      "commentId": 8,
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "commentId": 12,
+      "id": 32
+    }
+  ],
+  "follows": [
+    {
+      "id": 1,
+      "userId": 1,
+      "followingId": 2
+    },
+    {
+      "userId": 6,
+      "followingId": 1,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "followingId": 6,
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "followingId": 3,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "followingId": 2,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "followingId": 3,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "followingId": 3,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "followingId": 2,
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "followingId": 1,
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "followingId": 6,
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "followingId": 3,
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "followingId": 1,
+      "id": 19
+    },
+    {
+      "userId": 4,
+      "followingId": 6,
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "followingId": 3,
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "followingId": 2,
+      "id": 22
+    }
+  ],
+  "probes": [
+    {
+      "id": 1,
+      "userId": 5,
+      "recipientId": 4,
+      "seen": false
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "recipientId": 6,
+      "seen": true,
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 15
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 16
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "recipientId": 6,
+      "seen": false,
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "recipientId": 6,
+      "seen": false,
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "recipientId": 6,
+      "seen": false,
+      "id": 27
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 30
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 33
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 34
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 35
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": true,
+      "id": 36
+    },
+    {
+      "userId": 2,
+      "recipientId": 3,
+      "seen": true,
+      "id": 37
+    },
+    {
+      "userId": 2,
+      "recipientId": 3,
+      "seen": true,
+      "id": 38
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 39
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 40
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 41
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 42
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 43
+    },
+    {
+      "userId": 3,
+      "recipientId": 6,
+      "seen": false,
+      "id": 44
+    },
+    {
+      "userId": 3,
+      "recipientId": 6,
+      "seen": false,
+      "id": 45
+    },
+    {
+      "userId": 2,
+      "recipientId": 3,
+      "seen": true,
+      "id": 46
+    },
+    {
+      "userId": 2,
+      "recipientId": 3,
+      "seen": true,
+      "id": 47
+    },
+    {
+      "userId": 2,
+      "recipientId": 3,
+      "seen": true,
+      "id": 48
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 49
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 50
+    },
+    {
+      "userId": 1,
+      "recipientId": 3,
+      "seen": true,
+      "id": 51
+    },
+    {
+      "userId": 1,
+      "recipientId": 3,
+      "seen": true,
+      "id": 52
+    },
+    {
+      "userId": 1,
+      "recipientId": 3,
+      "seen": true,
+      "id": 53
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 54
+    },
+    {
+      "userId": 6,
+      "recipientId": 3,
+      "seen": true,
+      "id": 55
+    },
+    {
+      "userId": 3,
+      "recipientId": 1,
+      "seen": false,
+      "id": 56
+    },
+    {
+      "userId": 3,
+      "recipientId": 1,
+      "seen": false,
+      "id": 57
+    },
+    {
+      "userId": 3,
+      "recipientId": 1,
+      "seen": false,
+      "id": 58
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 59
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 60
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 61
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 62
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 63
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 64
+    },
+    {
+      "userId": 3,
+      "recipientId": 2,
+      "seen": false,
+      "id": 65
     }
   ]
 }
